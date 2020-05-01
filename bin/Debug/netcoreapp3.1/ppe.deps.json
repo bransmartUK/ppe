@@ -1,0 +1,184 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ppe/1.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10",
+          "System.Management": "5.0.0-preview.3.20214.6",
+          "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "runtime": {
+          "ppe.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0-preview.3.20214.6": {},
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {},
+      "Microsoft.Win32.Registry/5.0.0-preview.3.20214.6": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0-preview.3.20214.6",
+          "System.Security.Principal.Windows": "5.0.0-preview.3.20214.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.21406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.21406"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.21406"
+          }
+        }
+      },
+      "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {},
+      "System.CodeDom/5.0.0-preview.3.20214.6": {
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.21406"
+          }
+        }
+      },
+      "System.Management/5.0.0-preview.3.20214.6": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0-preview.3.20214.6",
+          "Microsoft.Win32.Registry": "5.0.0-preview.3.20214.6",
+          "System.CodeDom": "5.0.0-preview.3.20214.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Management.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "5.0.20.21406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "5.0.20.21406"
+          }
+        }
+      },
+      "System.Security.AccessControl/5.0.0-preview.3.20214.6": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0-preview.3.20214.6",
+          "System.Security.Principal.Windows": "5.0.0-preview.3.20214.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.21406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.21406"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0-preview.3.20214.6": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.21406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.21406"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.21406"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ppe/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/5.0.0-preview.3.20214.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PTiREWEeGOvw5PpZMHCNpGUAiD604Kq+lI0+78+2ce5Qdfvmd++CzUGfBGdSsMffpmXwJQjknDfkTtQ0dbyD1Q==",
+      "path": "microsoft.netcore.platforms/5.0.0-preview.3.20214.6",
+      "hashPath": "microsoft.netcore.platforms.5.0.0-preview.3.20214.6.nupkg.sha512"
+    },
+    "Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ROxFw/6HrgkUQKna0NAPWfmnuHpp/5JFB+lvTG47ELXiYjYpBfEKCGXax8kh/KKzP6uLDn4M3zJUUXC6Bst1+Q==",
+      "path": "microsoft.netcore.universalwindowsplatform/6.2.10",
+      "hashPath": "microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/5.0.0-preview.3.20214.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XwVcjcBj6GH0hv+trBRqPW2wopakXJ8BKKJS6lo18Ba3/C9VIheXYuEQ3vFYBgDXj1k7MqMjQO8PQWUpFr+OQQ==",
+      "path": "microsoft.win32.registry/5.0.0-preview.3.20214.6",
+      "hashPath": "microsoft.win32.registry.5.0.0-preview.3.20214.6.nupkg.sha512"
+    },
+    "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yidN5Az/P5GNdW2NJkguVJvSEm7odc/jz0ATotUiIBMj7D5Gjh51QbT3NqSHUv9+gkhcgTuaHrkf621BELvvdg==",
+      "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.2.10",
+      "hashPath": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512"
+    },
+    "System.CodeDom/5.0.0-preview.3.20214.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nfyfJL+uAi/6RkDbPKbI6q0l1cSrzbCcTkQLP6UurDVN8KIBlE+zmevVyhhlihjuRj8KJAhiJS1+HcLFS1tEwg==",
+      "path": "system.codedom/5.0.0-preview.3.20214.6",
+      "hashPath": "system.codedom.5.0.0-preview.3.20214.6.nupkg.sha512"
+    },
+    "System.Management/5.0.0-preview.3.20214.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tNDHm4JVkOcKcm4l7SvnBEabD4EkArOD5WKUVLXxqdKA6iiMH8lNEgq7hrmjs9iA761/qdp4rc/7losKYGhkZA==",
+      "path": "system.management/5.0.0-preview.3.20214.6",
+      "hashPath": "system.management.5.0.0-preview.3.20214.6.nupkg.sha512"
+    },
+    "System.Security.AccessControl/5.0.0-preview.3.20214.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QfskjI++Q59VTB/Cv0UjLQd0RNVZNfVh2RhWiIFfDKCHtfqhlEZoBLm+wVAUxTfpleQm4sf15TmiENzHUf9WvQ==",
+      "path": "system.security.accesscontrol/5.0.0-preview.3.20214.6",
+      "hashPath": "system.security.accesscontrol.5.0.0-preview.3.20214.6.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/5.0.0-preview.3.20214.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4S81ui+PKNlCl/TnuXi5bIRGqC3hqZIyjjHIttfrgNdS2/yN4pdpJi2LJ5GNBMyg9u39WL1FEK5NxdyMlXMuiQ==",
+      "path": "system.security.principal.windows/5.0.0-preview.3.20214.6",
+      "hashPath": "system.security.principal.windows.5.0.0-preview.3.20214.6.nupkg.sha512"
+    }
+  }
+}

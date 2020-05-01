@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ninja\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ninja\\.nuget\\packages"
+    ]
+  }
+}
