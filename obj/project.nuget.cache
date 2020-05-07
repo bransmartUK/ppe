@@ -1,17 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "361H9+YgMWcbRKGKgRS6p+/ylOvDk+1u3bzf1WPQF5xzkmKbQFVFDILARpYAcuFrNEdCMFIf+0s4vP6HRaCqVA==",
+  "dgSpecHash": "1QjVXtQmm/1yiYIiQQCV84UMjhzEGQLQVvaezl/G1PHidP6k37J2VqQT6NcGkOVtagGJqtZy/tHDvQC6jfPgDg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ninja\\Desktop\\Cyber_Defense_Project\\ppe\\ppe.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ninja\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0-preview.3.20214.6\\microsoft.netcore.platforms.5.0.0-preview.3.20214.6.nupkg.sha512",
     "C:\\Users\\ninja\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Users\\ninja\\.nuget\\packages\\microsoft.win32.registry\\5.0.0-preview.3.20214.6\\microsoft.win32.registry.5.0.0-preview.3.20214.6.nupkg.sha512",
+    "C:\\Users\\ninja\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\ninja\\.nuget\\packages\\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Users\\ninja\\.nuget\\packages\\system.codedom\\5.0.0-preview.3.20214.6\\system.codedom.5.0.0-preview.3.20214.6.nupkg.sha512",
     "C:\\Users\\ninja\\.nuget\\packages\\system.management\\5.0.0-preview.3.20214.6\\system.management.5.0.0-preview.3.20214.6.nupkg.sha512",
     "C:\\Users\\ninja\\.nuget\\packages\\system.security.accesscontrol\\5.0.0-preview.3.20214.6\\system.security.accesscontrol.5.0.0-preview.3.20214.6.nupkg.sha512",
-    "C:\\Users\\ninja\\.nuget\\packages\\system.security.principal.windows\\5.0.0-preview.3.20214.6\\system.security.principal.windows.5.0.0-preview.3.20214.6.nupkg.sha512"
+    "C:\\Users\\ninja\\.nuget\\packages\\system.security.principal.windows\\5.0.0-preview.3.20214.6\\system.security.principal.windows.5.0.0-preview.3.20214.6.nupkg.sha512",
+    "C:\\Users\\ninja\\.nuget\\packages\\virustotalnet\\2.0.0\\virustotalnet.2.0.0.nupkg.sha512"
   ],
   "logs": []
 }

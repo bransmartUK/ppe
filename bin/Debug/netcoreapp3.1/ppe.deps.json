@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10",
           "System.Management": "5.0.0-preview.3.20214.6",
+          "VirusTotalNet": "2.0.0",
           "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
         },
         "runtime": {
@@ -41,6 +42,14 @@
             "assetType": "runtime",
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.21406"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
           }
         }
       },
@@ -115,6 +124,17 @@
             "fileVersion": "5.0.20.21406"
           }
         }
+      },
+      "VirusTotalNet/2.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/VirusTotalNet.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
       }
     }
   },
@@ -144,6 +164,13 @@
       "sha512": "sha512-XwVcjcBj6GH0hv+trBRqPW2wopakXJ8BKKJS6lo18Ba3/C9VIheXYuEQ3vFYBgDXj1k7MqMjQO8PQWUpFr+OQQ==",
       "path": "microsoft.win32.registry/5.0.0-preview.3.20214.6",
       "hashPath": "microsoft.win32.registry.5.0.0-preview.3.20214.6.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
     },
     "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {
       "type": "package",
@@ -179,6 +206,13 @@
       "sha512": "sha512-4S81ui+PKNlCl/TnuXi5bIRGqC3hqZIyjjHIttfrgNdS2/yN4pdpJi2LJ5GNBMyg9u39WL1FEK5NxdyMlXMuiQ==",
       "path": "system.security.principal.windows/5.0.0-preview.3.20214.6",
       "hashPath": "system.security.principal.windows.5.0.0-preview.3.20214.6.nupkg.sha512"
+    },
+    "VirusTotalNet/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/qQFfWreWU/TNcvkFMLBBFW8/87T5IfqmNfA0gitRiKmMViN33v+rHhUwMJlAU7uQlqzH+Bco+E2Maeh58wa2A==",
+      "path": "virustotalnet/2.0.0",
+      "hashPath": "virustotalnet.2.0.0.nupkg.sha512"
     }
   }
 }

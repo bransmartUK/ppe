@@ -41,6 +41,15 @@
           }
         }
       },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {
         "type": "package",
         "compile": {
@@ -112,6 +121,18 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "VirusTotalNet/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/VirusTotalNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/VirusTotalNet.dll": {}
         }
       }
     }
@@ -474,6 +495,36 @@
         "version.txt"
       ]
     },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
     "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {
       "sha512": "yidN5Az/P5GNdW2NJkguVJvSEm7odc/jz0ATotUiIBMj7D5Gjh51QbT3NqSHUv9+gkhcgTuaHrkf621BELvvdg==",
       "type": "package",
@@ -805,12 +856,26 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "VirusTotalNet/2.0.0": {
+      "sha512": "/qQFfWreWU/TNcvkFMLBBFW8/87T5IfqmNfA0gitRiKmMViN33v+rHhUwMJlAU7uQlqzH+Bco+E2Maeh58wa2A==",
+      "type": "package",
+      "path": "virustotalnet/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/netstandard2.0/VirusTotalNet.dll",
+        "virustotalnet.2.0.0.nupkg.sha512",
+        "virustotalnet.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.10",
       "System.Management >= 5.0.0-preview.3.20214.6",
+      "VirusTotalNet >= 2.0.0",
       "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.10"
     ]
   },
@@ -858,6 +923,10 @@
           "System.Management": {
             "target": "Package",
             "version": "[5.0.0-preview.3.20214.6, )"
+          },
+          "VirusTotalNet": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           },
           "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",

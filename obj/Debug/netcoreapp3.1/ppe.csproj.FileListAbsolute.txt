@@ -23,3 +23,5 @@ C:\Users\ninja\Desktop\Cyber_Defense_Project\ppe\bin\Debug\netcoreapp3.1\runtime
 C:\Users\ninja\Desktop\Cyber_Defense_Project\ppe\obj\Debug\netcoreapp3.1\ppe.csproj.CopyComplete
 C:\Users\ninja\Desktop\Cyber_Defense_Project\ppe\obj\Debug\netcoreapp3.1\ppe.csproj.CoreCompileInputs.cache
 C:\Users\ninja\Desktop\Cyber_Defense_Project\ppe\obj\Debug\netcoreapp3.1\ppe.genruntimeconfig.cache
+C:\Users\ninja\Desktop\Cyber_Defense_Project\ppe\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ninja\Desktop\Cyber_Defense_Project\ppe\bin\Debug\netcoreapp3.1\VirusTotalNet.dll

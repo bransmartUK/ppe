@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[5.0.0-preview.3.20214.6, )"
             },
+            "VirusTotalNet": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.10, )"
