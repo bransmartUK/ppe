@@ -1,2 +1,1 @@
-PPE (Personal Portable Evaluator) is a small program that automatically scans portable
-storage devices for malware.
+PPE, your Personal Protective Executable, is an application that detects new USB devices and scans them for malicious software so that you can detect portable malware before you run it.
